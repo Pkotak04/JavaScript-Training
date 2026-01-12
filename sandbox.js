@@ -1,56 +1,54 @@
-let age = 25;
-let year = 2019;
+// booleans & comparisons
+//console.log(true, false, "true", "false");
 
-// log things to console
-console.log(age, year);
-
-age = 30;
-console.log(age);
-
-const points = 100;
-
-// console.log(points);
-
-var score = 75;
-console.log(score);
-
-// Strings
-console.log("Hello, world");
-
-let email = "pkotak@academic.rrc.ca";
-console.log(email);
-
-// String concatentaion
-let firstName = "Param ";
-let lastName = "Kotak";
-
-let fullName = firstName + lastName;
-console.log(fullName);
-
-// Getting characters
-console.log(fullName[0]);
-
-// String length
-console.log(fullName.length);
-
-// String methods
-console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
-console.log(result, fullName);
-
-let index = email.indexOf("@");
-console.log(index);
-
-// common string methods
+// methods can return booleans
 // let email = "pkotak@academic.rrc.ca";
+// let names = ["Mario", "Luigi", "Toad"];
 
-// let result = email.lastIndexOf("c");
+//let result = email.includes("!");
+//let result = names.includes("Luigi");
+//console.log(result);
 
-// let result = email.slice(0, 5);
+// comparasion operators
 
-// let result = email.substring(4, 10);
+// loose comparison (different types can still be equal)
+// let age = 25;
 
-// let result = email.replace("k", "m");
-// let result = email.replace("k", "w");
+// console.log(age == 25);
+// console.log(age == "25");
+// console.log(age != 25);
+// console.log(age != "25");
 
-// console.log(result);
+// strict comparison (different types cannot be equal)
+// console.log(age === 25);
+// console.log(age === "25");
+// console.log(age !== 25);
+// console.log(age !== "25");
+
+// console.log(age == 30);
+// console.log(age != 30);
+// console.log(age > 20);
+// console.log(age < 20);
+// console.log(age <= 25);
+// console.log(age >= 25);
+
+// let name = "Shaun";
+// console.log(name == "Shaun");
+// console.log(name == "shaun");
+// console.log(name > "Crystal");
+// console.log(name > "shaun");
+// console.log(name > "Crystal");
+
+let score = "100";
+
+// score = Number(score);
+// console.log(score + 1);
+// console.log(typeof score);
+
+//let result = Number("hello");
+//let result = String(50);
+//let result = Boolean(100);
+
+let result = Boolean("");
+
+console.log(result, typeof result);
