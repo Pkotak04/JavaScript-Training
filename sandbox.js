@@ -2,12 +2,12 @@ let age = 25;
 let year = 2019;
 
 // log things to console
-// console.log(age, year);
+console.log(age, year);
 
-// age = 30;
-// console.log(age);
+age = 30;
+console.log(age);
 
-// const points = 100;
+const points = 100;
 
 // console.log(points);
 
@@ -40,3 +40,17 @@ console.log(result, fullName);
 
 let index = email.indexOf("@");
 console.log(index);
+
+// common string methods
+// let email = "pkotak@academic.rrc.ca";
+
+// let result = email.lastIndexOf("c");
+
+// let result = email.slice(0, 5);
+
+// let result = email.substring(4, 10);
+
+// let result = email.replace("k", "m");
+// let result = email.replace("k", "w");
+
+// console.log(result);
