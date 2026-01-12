@@ -1,56 +1,56 @@
-let age = 25;
-let year = 2019;
+// let radius = 10;
+// const pi = 3.14;
 
-// log things to console
-console.log(age, year);
+// console.log(radius, pi);
 
-age = 30;
-console.log(age);
+// console.log(10 / 2);
+// let results = radius % 3;
 
-const points = 100;
+//let results = pi * radius ** 2;
 
-// console.log(points);
+// order of operation
+// let results = 5 * (10 - 3) ** 2;
 
-var score = 75;
-console.log(score);
+// console.log(results);
 
-// Strings
-console.log("Hello, world");
+// let likes = 10;
+//likes = likes + 1;
 
-let email = "pkotak@academic.rrc.ca";
-console.log(email);
+//likes++;
 
-// String concatentaion
-let firstName = "Param ";
-let lastName = "Kotak";
+//likes += 10;
+//likes -= 5;
+//likes *= 2;
+//likes /= 2;
+//console.log(likes);
 
-let fullName = firstName + lastName;
-console.log(fullName);
+// NaN - Not a number
 
-// Getting characters
-console.log(fullName[0]);
+//console.log(5 / "hello");
 
-// String length
-console.log(fullName.length);
+// let result = "the blog has " + likes + " likes";
+// console.log(result);
 
-// String methods
-console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
-console.log(result, fullName);
+// template strings
+const title = "Best reads of 2019";
+const author = "Param";
+const likes = 30;
 
-let index = email.indexOf("@");
-console.log(index);
-
-// common string methods
-// let email = "pkotak@academic.rrc.ca";
-
-// let result = email.lastIndexOf("c");
-
-// let result = email.slice(0, 5);
-
-// let result = email.substring(4, 10);
-
-// let result = email.replace("k", "m");
-// let result = email.replace("k", "w");
+// concatenation
+// let result =
+//   "The blog called " + title + " by " + author + " has " + likes + " likes";
 
 // console.log(result);
+
+// template literal
+let result = `The blog called ${title} by ${author} has ${likes} likes`;
+console.log(result);
+
+// creating html templates
+let html = `
+    <h2>${title}</h2>
+    <p>By ${author}</p>
+    <span>This blog has ${likes} likes</span>
+`;
+
+console.log(html);
