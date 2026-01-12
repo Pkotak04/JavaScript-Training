@@ -1,56 +1,22 @@
-let age = 25;
-let year = 2019;
+let ninjas = ["Shaun", "Ryu", "Chun-li"];
 
-// log things to console
-console.log(age, year);
+// ninjas[1] = "Ken";
 
-age = 30;
-console.log(age);
+// console.log(ninjas[1]);
 
-const points = 100;
+// let ages = [20, 25, 30, 35];
+// console.log(ages[2]);
 
-// console.log(points);
+// let random = ["Shaun", "Crystal", 30, 20];
+// console.log(random);
 
-var score = 75;
-console.log(score);
+//console.log(ninjas.length);
 
-// Strings
-console.log("Hello, world");
+// array methods
+//et results = ninjas.join(", ");
+//let results = ninjas.indexOf("Chun-li");
 
-let email = "pkotak@academic.rrc.ca";
-console.log(email);
-
-// String concatentaion
-let firstName = "Param ";
-let lastName = "Kotak";
-
-let fullName = firstName + lastName;
-console.log(fullName);
-
-// Getting characters
-console.log(fullName[0]);
-
-// String length
-console.log(fullName.length);
-
-// String methods
-console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
-console.log(result, fullName);
-
-let index = email.indexOf("@");
-console.log(index);
-
-// common string methods
-// let email = "pkotak@academic.rrc.ca";
-
-// let result = email.lastIndexOf("c");
-
-// let result = email.slice(0, 5);
-
-// let result = email.substring(4, 10);
-
-// let result = email.replace("k", "m");
-// let result = email.replace("k", "w");
-
-// console.log(result);
+//let results = ninjas.concat(["Ken", "Crystal"]);
+let results = ninjas.push("Ken");
+results = ninjas.pop();
+console.log(ninjas);
