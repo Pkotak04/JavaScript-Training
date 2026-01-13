@@ -1,56 +1,31 @@
-let age = 25;
-let year = 2019;
+// for loops
 
-// log things to console
-console.log(age, year);
+// for (let i = 0; i < 5; i++) {
+//   console.log("in loop:", i);
+// }
 
-age = 30;
-console.log(age);
+// console.log("loop finished");
 
-const points = 100;
+// const names = ["shaun", "mario", "luigi"];
 
-// console.log(points);
+// for (let i = 0; i < names.length; i++) {
+//   //console.log(names[i]);
+//   let html = `<div>${names[i]}</div>`;
+//   console.log(html);
+// }
 
-var score = 75;
-console.log(score);
+// while loops
+// const names = ["shaun", "mario", "luigi"];
 
-// Strings
-console.log("Hello, world");
+// let i = 0;
+// while (i < names.length) {
+//   console.log(names[i]);
+//   i++;
+// }
 
-let email = "pkotak@academic.rrc.ca";
-console.log(email);
-
-// String concatentaion
-let firstName = "Param ";
-let lastName = "Kotak";
-
-let fullName = firstName + lastName;
-console.log(fullName);
-
-// Getting characters
-console.log(fullName[0]);
-
-// String length
-console.log(fullName.length);
-
-// String methods
-console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
-console.log(result, fullName);
-
-let index = email.indexOf("@");
-console.log(index);
-
-// common string methods
-// let email = "pkotak@academic.rrc.ca";
-
-// let result = email.lastIndexOf("c");
-
-// let result = email.slice(0, 5);
-
-// let result = email.substring(4, 10);
-
-// let result = email.replace("k", "m");
-// let result = email.replace("k", "w");
-
-// console.log(result);
+// do while loop
+let i = 5;
+do {
+  console.log("val of i is: ", i);
+  i++;
+} while (i < 5);
