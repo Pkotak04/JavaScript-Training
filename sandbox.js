@@ -1,31 +1,25 @@
-// for loops
-
-// for (let i = 0; i < 5; i++) {
-//   console.log("in loop:", i);
+// const calcArea = function(radius){
+//     return 3.14 * radius**2;
 // }
 
-// console.log("loop finished");
+// Arrow function
+// const calcArea = (radius) => {
+//     return 3.14 * radius**2;
+// };
 
-// const names = ["shaun", "mario", "luigi"];
+// const calcArea = radius => 3.14 * radius**2;
 
-// for (let i = 0; i < names.length; i++) {
-//   //console.log(names[i]);
-//   let html = `<div>${names[i]}</div>`;
-//   console.log(html);
-// }
+// const area = calcArea(5);
+// console.log(area);
 
-// while loops
-// const names = ["shaun", "mario", "luigi"];
+const greet = () => 'hello, world';
+const result = greet();
+console.log(result);
 
-// let i = 0;
-// while (i < names.length) {
-//   console.log(names[i]);
-//   i++;
-// }
-
-// do while loop
-let i = 5;
-do {
-  console.log("val of i is: ", i);
-  i++;
-} while (i < 5);
+const bill = (products, tax) => {
+    let total = 0;
+    for(let i = 0; i < products.length; i++) {
+        total += products[i] + products[i] * tax;
+    }
+    return total;
+};
